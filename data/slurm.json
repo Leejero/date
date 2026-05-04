@@ -53,8 +53,8 @@
       "top_10_users": []
     },
     "slurm_version": "24.05.4",
-    "server_uptime": "62天21小时19分",
-    "last_updated": "2026-05-04 14:25:59"
+    "server_uptime": "62天21小时23分",
+    "last_updated": "2026-05-04 14:30:03"
   },
   "partitions": [
     {
@@ -378,8 +378,8 @@
       "memory_gb": 371.1,
       "jobs_running": 2,
       "users": [
-        "zhangxx",
-        "zengqh"
+        "zengqh",
+        "zhangxx"
       ]
     },
     {
@@ -514,7 +514,7 @@
       ],
       "nodelist_str": "comput09",
       "cpus": 48,
-      "runtime": "1-03:11:46",
+      "runtime": "1-03:15:50",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-03T11:14:12",
       "user": "zengqh",
@@ -531,7 +531,7 @@
       ],
       "nodelist_str": "comput03",
       "cpus": 48,
-      "runtime": "2-21:53:24",
+      "runtime": "2-21:57:28",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-01T16:32:34",
       "user": "zengqh",
@@ -548,7 +548,7 @@
       ],
       "nodelist_str": "comput03",
       "cpus": 48,
-      "runtime": "3:34:55",
+      "runtime": "3:38:59",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T10:51:03",
       "user": "zhangxx",
@@ -565,7 +565,7 @@
       ],
       "nodelist_str": "comput02",
       "cpus": 48,
-      "runtime": "3:43:41",
+      "runtime": "3:47:45",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T10:42:17",
       "user": "zhangxx",
@@ -582,7 +582,7 @@
       ],
       "nodelist_str": "comput01",
       "cpus": 48,
-      "runtime": "5:22:38",
+      "runtime": "5:26:42",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T09:03:20",
       "user": "raopl",
@@ -599,7 +599,7 @@
       ],
       "nodelist_str": "comput02",
       "cpus": 48,
-      "runtime": "2-19:06:27",
+      "runtime": "2-19:10:31",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-01T19:19:31",
       "user": "xiongzt",
@@ -631,7 +631,7 @@
       ],
       "nodelist_str": "comput10",
       "cpus": 96,
-      "runtime": "1:55:53",
+      "runtime": "1:59:57",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-04T12:30:05",
       "user": "limeng",
@@ -648,7 +648,7 @@
       ],
       "nodelist_str": "comput04",
       "cpus": 96,
-      "runtime": "8:11:50",
+      "runtime": "8:15:54",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-04T06:14:08",
       "user": "limeng",
@@ -665,7 +665,7 @@
       ],
       "nodelist_str": "comput05",
       "cpus": 64,
-      "runtime": "2:31:31",
+      "runtime": "2:35:35",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-04T11:54:27",
       "user": "huwencheng",
@@ -753,7 +753,7 @@
       "tty": "pts/0",
       "from": "10.134.45.154",
       "login_time": "2026-05-04 14:07",
-      "idle": "00:18",
+      "idle": "00:22",
       "what": "",
       "sessions": 1
     },
@@ -762,7 +762,7 @@
       "tty": "pts/1",
       "from": "10.134.45.154",
       "login_time": "2026-05-04 14:10",
-      "idle": "00:15",
+      "idle": "00:19",
       "what": "",
       "sessions": 1
     },
@@ -771,7 +771,7 @@
       "tty": "pts/2",
       "from": "10.134.127.225",
       "login_time": "2026-05-04 14:19",
-      "idle": ".",
+      "idle": "00:02",
       "what": "",
       "sessions": 1
     }
@@ -818,7 +818,7 @@
       "info": 0
     },
     "has_critical": false,
-    "last_updated": "2026-05-04 14:25:59"
+    "last_updated": "2026-05-04 14:30:03"
   },
   "constraints": {
     "allowed_partitions": [
@@ -872,7 +872,7 @@
         "note": "所有分区共用集群 10 台机器（共 960 核），非分区独立拥有"
       }
     ],
-    "collected_at": "2026-05-04 14:25:59"
+    "collected_at": "2026-05-04 14:30:04"
   },
   "trend": [
     {
@@ -907,7 +907,7 @@
     }
   ],
   "timestamp": {
-    "collected_at": "2026-05-04T14:25:59.846755",
+    "collected_at": "2026-05-04T14:30:04.241497",
     "files": [
       "overview.json",
       "partitions.json",
@@ -923,5 +923,5 @@
       "constraints.json"
     ]
   },
-  "last_updated": "2026-05-04 14:25:59"
+  "last_updated": "2026-05-04 14:30:04"
 }
