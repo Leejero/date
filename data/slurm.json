@@ -53,8 +53,8 @@
       "top_10_users": []
     },
     "slurm_version": "24.05.4",
-    "server_uptime": "64天5小时33分",
-    "last_updated": "2026-05-05 22:40:04"
+    "server_uptime": "64天5小时53分",
+    "last_updated": "2026-05-05 23:00:03"
   },
   "partitions": [
     {
@@ -329,9 +329,9 @@
     {
       "name": "comput01",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -347,9 +347,9 @@
     {
       "name": "comput02",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -366,9 +366,9 @@
     {
       "name": "comput03",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -385,9 +385,9 @@
     {
       "name": "comput04",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -403,9 +403,9 @@
     {
       "name": "comput05",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -422,9 +422,9 @@
     {
       "name": "comput06",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -440,9 +440,9 @@
     {
       "name": "comput07",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "idle",
       "total_cores": 112,
@@ -456,9 +456,9 @@
     {
       "name": "comput08",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "idle",
       "total_cores": 112,
@@ -472,9 +472,9 @@
     {
       "name": "comput09",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -491,9 +491,9 @@
     {
       "name": "comput10",
       "partitions": [
-        "test",
         "student",
-        "teacher"
+        "teacher",
+        "test"
       ],
       "state": "mixed",
       "total_cores": 112,
@@ -578,7 +578,7 @@
       ],
       "nodelist_str": "comput09",
       "cpus": 48,
-      "runtime": "2-11:25:51",
+      "runtime": "2-11:45:50",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-03T11:14:12",
       "user": "zengqh",
@@ -595,7 +595,7 @@
       ],
       "nodelist_str": "comput03",
       "cpus": 48,
-      "runtime": "14:44:49",
+      "runtime": "15:04:48",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-05T07:55:14",
       "user": "yinli",
@@ -612,7 +612,7 @@
       ],
       "nodelist_str": "comput05",
       "cpus": 24,
-      "runtime": "1-04:46:41",
+      "runtime": "1-05:06:40",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T17:53:22",
       "user": "raopl",
@@ -629,7 +629,7 @@
       ],
       "nodelist_str": "comput01",
       "cpus": 48,
-      "runtime": "1-05:45:58",
+      "runtime": "1-06:05:57",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T16:54:05",
       "user": "liuxc",
@@ -646,7 +646,7 @@
       ],
       "nodelist_str": "comput01",
       "cpus": 48,
-      "runtime": "1-05:46:46",
+      "runtime": "1-06:06:45",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T16:53:17",
       "user": "liuxc",
@@ -663,7 +663,7 @@
       ],
       "nodelist_str": "comput06",
       "cpus": 48,
-      "runtime": "1-06:05:01",
+      "runtime": "1-06:25:00",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T16:35:02",
       "user": "wangh",
@@ -680,7 +680,7 @@
       ],
       "nodelist_str": "comput09",
       "cpus": 48,
-      "runtime": "1-06:05:47",
+      "runtime": "1-06:25:46",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T16:34:16",
       "user": "wangh",
@@ -697,7 +697,7 @@
       ],
       "nodelist_str": "comput03",
       "cpus": 48,
-      "runtime": "1-11:49:00",
+      "runtime": "1-12:08:59",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T10:51:03",
       "user": "zhangxx",
@@ -714,7 +714,7 @@
       ],
       "nodelist_str": "comput02",
       "cpus": 48,
-      "runtime": "1-11:57:46",
+      "runtime": "1-12:17:45",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T10:42:17",
       "user": "zhangxx",
@@ -731,7 +731,7 @@
       ],
       "nodelist_str": "comput02",
       "cpus": 48,
-      "runtime": "4-03:20:32",
+      "runtime": "4-03:40:31",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-01T19:19:31",
       "user": "xiongzt",
@@ -763,7 +763,7 @@
       ],
       "nodelist_str": "comput10",
       "cpus": 96,
-      "runtime": "6:56:52",
+      "runtime": "7:16:51",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-05T15:43:11",
       "user": "limeng",
@@ -780,7 +780,7 @@
       ],
       "nodelist_str": "comput04",
       "cpus": 96,
-      "runtime": "2:56:13",
+      "runtime": "3:16:12",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-05T19:43:50",
       "user": "limeng",
@@ -797,7 +797,7 @@
       ],
       "nodelist_str": "comput05",
       "cpus": 64,
-      "runtime": "1-10:45:36",
+      "runtime": "1-11:05:35",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-04T11:54:27",
       "user": "huwencheng",
@@ -933,7 +933,7 @@
       "tty": "pts/0",
       "from": "10.134.16.111",
       "login_time": "2026-05-05 16:27",
-      "idle": "02:32",
+      "idle": "02:52",
       "what": "",
       "sessions": 1
     },
@@ -942,7 +942,7 @@
       "tty": "pts/1",
       "from": "10.134.16.111",
       "login_time": "2026-05-05 16:27",
-      "idle": "06:13",
+      "idle": "06:33",
       "what": "",
       "sessions": 3
     },
@@ -951,7 +951,7 @@
       "tty": "pts/2",
       "from": "10.134.189.83",
       "login_time": "2026-05-05 22:05",
-      "idle": "00:34",
+      "idle": "00:54",
       "what": "",
       "sessions": 1
     },
@@ -960,7 +960,7 @@
       "tty": "pts/6",
       "from": "10.134.21.213",
       "login_time": "2026-05-05 19:19",
-      "idle": "03:20",
+      "idle": "03:40",
       "what": "",
       "sessions": 1
     },
@@ -969,7 +969,7 @@
       "tty": "pts/7",
       "from": "10.134.161.4",
       "login_time": "2026-05-05 22:29",
-      "idle": "00:10",
+      "idle": "00:30",
       "what": "",
       "sessions": 1
     },
@@ -978,7 +978,7 @@
       "tty": "pts/8",
       "from": "10.134.189.83",
       "login_time": "2026-05-05 22:06",
-      "idle": "00:33",
+      "idle": "00:53",
       "what": "",
       "sessions": 1
     }
@@ -998,8 +998,8 @@
       "filesystem": "/dev/sda",
       "mount": "/public",
       "total_gb": 128545.0,
-      "used_gb": 14754.4,
-      "avail_gb": 113790.5,
+      "used_gb": 14757.1,
+      "avail_gb": 113787.9,
       "usage_percent": 12,
       "is_alert": false
     }
@@ -1031,7 +1031,7 @@
       "info": 0
     },
     "has_critical": false,
-    "last_updated": "2026-05-05 22:40:03"
+    "last_updated": "2026-05-05 23:00:02"
   },
   "constraints": {
     "allowed_partitions": [
@@ -1085,7 +1085,7 @@
         "note": "所有分区共用集群 10 台机器（共 960 核），非分区独立拥有"
       }
     ],
-    "collected_at": "2026-05-05 22:40:04"
+    "collected_at": "2026-05-05 23:00:03"
   },
   "trend": [
     {
@@ -1130,7 +1130,7 @@
     }
   ],
   "timestamp": {
-    "collected_at": "2026-05-05T22:40:04.566237",
+    "collected_at": "2026-05-05T23:00:03.671330",
     "files": [
       "overview.json",
       "partitions.json",
@@ -1146,5 +1146,5 @@
       "constraints.json"
     ]
   },
-  "last_updated": "2026-05-05 22:40:04"
+  "last_updated": "2026-05-05 23:00:03"
 }
