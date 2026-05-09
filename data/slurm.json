@@ -22,8 +22,8 @@
     },
     "jobs": {
       "running": 11,
-      "pending": 8,
-      "total": 19
+      "pending": 9,
+      "total": 20
     },
     "users": {
       "online_terminal": 7,
@@ -35,7 +35,7 @@
       "alerts": 0
     },
     "queue": {
-      "pending_count": 8,
+      "pending_count": 9,
       "avg_wait_minutes": 0.0,
       "max_wait_minutes": 0
     },
@@ -53,8 +53,8 @@
       "top_10_users": []
     },
     "slurm_version": "24.05.4",
-    "server_uptime": "67天17小时53分",
-    "last_updated": "2026-05-09 11:00:03"
+    "server_uptime": "67天18小时13分",
+    "last_updated": "2026-05-09 11:20:03"
   },
   "partitions": [
     {
@@ -359,8 +359,8 @@
       "memory_gb": 371.1,
       "jobs_running": 2,
       "users": [
-        "zhangxx",
-        "zhangzq"
+        "zhangzq",
+        "zhangxx"
       ]
     },
     {
@@ -378,8 +378,8 @@
       "memory_gb": 371.1,
       "jobs_running": 2,
       "users": [
-        "yinli",
-        "zengqh"
+        "zengqh",
+        "yinli"
       ]
     },
     {
@@ -567,6 +567,21 @@
       "gpus": 0
     },
     {
+      "job_id": "20468",
+      "name": "yh",
+      "status": "PENDING",
+      "partition": "student",
+      "nodes": [],
+      "nodelist_str": "",
+      "cpus": 48,
+      "runtime": "0:00",
+      "time_limit": "5-00:00:00",
+      "submit_time": "N/A",
+      "user": "zhangxx",
+      "reason": "(QOSMaxCpuPerUserLimit)",
+      "gpus": 0
+    },
+    {
       "job_id": "20331",
       "name": "Fe2O3-CuO",
       "status": "RUNNING",
@@ -576,7 +591,7 @@
       ],
       "nodelist_str": "comput03",
       "cpus": 48,
-      "runtime": "4-03:04:48",
+      "runtime": "4-03:24:48",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-05T07:55:14",
       "user": "yinli",
@@ -593,7 +608,7 @@
       ],
       "nodelist_str": "comput01",
       "cpus": 48,
-      "runtime": "1-02:28:16",
+      "runtime": "1-02:48:16",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-08T08:31:46",
       "user": "zhoumh",
@@ -610,7 +625,7 @@
       ],
       "nodelist_str": "comput03",
       "cpus": 48,
-      "runtime": "16:14:52",
+      "runtime": "16:34:52",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-08T18:45:10",
       "user": "zengqh",
@@ -627,7 +642,7 @@
       ],
       "nodelist_str": "comput05",
       "cpus": 24,
-      "runtime": "4-17:06:40",
+      "runtime": "4-17:26:40",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-04T17:53:22",
       "user": "raopl",
@@ -644,7 +659,7 @@
       ],
       "nodelist_str": "comput09",
       "cpus": 48,
-      "runtime": "19:54:45",
+      "runtime": "20:14:45",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-08T15:05:17",
       "user": "xiongzt",
@@ -661,7 +676,7 @@
       ],
       "nodelist_str": "comput02",
       "cpus": 48,
-      "runtime": "22:16:18",
+      "runtime": "22:36:18",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-08T12:43:44",
       "user": "zhangxx",
@@ -678,7 +693,7 @@
       ],
       "nodelist_str": "comput02",
       "cpus": 48,
-      "runtime": "1-00:51:12",
+      "runtime": "1-01:11:12",
       "time_limit": "5-00:00:00",
       "submit_time": "2026-05-08T10:08:50",
       "user": "zhangzq",
@@ -755,7 +770,7 @@
       ],
       "nodelist_str": "comput04",
       "cpus": 96,
-      "runtime": "8:12:36",
+      "runtime": "8:32:36",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-09T02:47:26",
       "user": "limeng",
@@ -772,7 +787,7 @@
       ],
       "nodelist_str": "comput06",
       "cpus": 48,
-      "runtime": "20:17:17",
+      "runtime": "20:37:17",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-08T14:42:45",
       "user": "huoxiangyu",
@@ -789,7 +804,7 @@
       ],
       "nodelist_str": "comput09",
       "cpus": 48,
-      "runtime": "1-01:23:37",
+      "runtime": "1-01:43:37",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-08T09:36:25",
       "user": "huoxiangyu",
@@ -806,7 +821,7 @@
       ],
       "nodelist_str": "comput05",
       "cpus": 64,
-      "runtime": "4-23:05:35",
+      "runtime": "4-23:25:35",
       "time_limit": "7-00:00:00",
       "submit_time": "2026-05-04T11:54:27",
       "user": "huwencheng",
@@ -878,7 +893,7 @@
     {
       "username": "zhangxx",
       "running_jobs": 1,
-      "pending_jobs": 1,
+      "pending_jobs": 2,
       "total_cores": 48,
       "total_nodes": 1,
       "partitions": [
@@ -942,7 +957,7 @@
       "tty": "pts/0",
       "from": "10.134.52.246",
       "login_time": "2026-05-09 08:56",
-      "idle": "02:03",
+      "idle": ".",
       "what": "",
       "sessions": 1
     },
@@ -951,7 +966,7 @@
       "tty": "pts/1",
       "from": "10.134.52.246",
       "login_time": "2026-05-09 08:56",
-      "idle": "02:03",
+      "idle": "02:23",
       "what": "",
       "sessions": 1
     },
@@ -960,7 +975,7 @@
       "tty": "pts/2",
       "from": "10.134.127.225",
       "login_time": "2026-05-09 09:09",
-      "idle": "01:50",
+      "idle": "02:10",
       "what": "",
       "sessions": 1
     },
@@ -969,7 +984,7 @@
       "tty": "pts/4",
       "from": "10.138.95.76",
       "login_time": "2026-05-09 09:45",
-      "idle": "01:13",
+      "idle": "01:33",
       "what": "",
       "sessions": 3
     },
@@ -978,7 +993,7 @@
       "tty": "pts/6",
       "from": "10.134.16.111",
       "login_time": "2026-05-08 18:15",
-      "idle": "16:44",
+      "idle": "17:04",
       "what": "",
       "sessions": 1
     },
@@ -987,7 +1002,7 @@
       "tty": "pts/7",
       "from": "10.138.171.237",
       "login_time": "2026-05-09 10:27",
-      "idle": "00:31",
+      "idle": "00:51",
       "what": "",
       "sessions": 1
     },
@@ -995,8 +1010,8 @@
       "username": "zhangxx",
       "tty": "pts/8",
       "from": "10.134.50.175",
-      "login_time": "2026-05-09 10:40",
-      "idle": "00:18",
+      "login_time": "2026-05-09 11:08",
+      "idle": "00:11",
       "what": "",
       "sessions": 1
     }
@@ -1016,20 +1031,20 @@
       "filesystem": "/dev/sda",
       "mount": "/public",
       "total_gb": 128545.0,
-      "used_gb": 14707.1,
+      "used_gb": 14707.0,
       "avail_gb": 113837.9,
       "usage_percent": 12,
       "is_alert": false
     }
   ],
   "queue_stats": {
-    "pending_count": 8,
+    "pending_count": 9,
     "avg_wait_minutes": 0.0,
     "max_wait_minutes": 0,
     "reasons": [
       {
         "reason": "(QOSMaxCpuPerUserLimit)",
-        "count": 8,
+        "count": 9,
         "avg_wait_minutes": 0.0,
         "max_wait_minutes": 0
       }
@@ -1043,7 +1058,7 @@
       "info": 0
     },
     "has_critical": false,
-    "last_updated": "2026-05-09 11:00:02"
+    "last_updated": "2026-05-09 11:20:02"
   },
   "constraints": {
     "allowed_partitions": [
@@ -1097,7 +1112,7 @@
         "note": "所有分区共用集群 10 台机器（共 960 核），非分区独立拥有"
       }
     ],
-    "collected_at": "2026-05-09 11:00:03"
+    "collected_at": "2026-05-09 11:20:03"
   },
   "trend": [
     {
@@ -1182,7 +1197,7 @@
     }
   ],
   "timestamp": {
-    "collected_at": "2026-05-09T11:00:03.670236",
+    "collected_at": "2026-05-09T11:20:03.633904",
     "files": [
       "overview.json",
       "partitions.json",
@@ -1198,5 +1213,5 @@
       "constraints.json"
     ]
   },
-  "last_updated": "2026-05-09 11:00:03"
+  "last_updated": "2026-05-09 11:20:03"
 }
